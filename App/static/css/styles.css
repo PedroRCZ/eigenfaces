@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div h1{
+    color: #fff;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: #34b7d8;
+}
+
+div .titu{
+    margin: 30px;
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+
+.boton a{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px 50px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+
+.vide{
+  margin: 1rem 17rem;
+  padding: 1rem;
+  min-height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu{
+    height: inherit;
+}
+.titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+section p{
+    text-align: center;
+}
+.video{
+  background-color: #fafafa;
+  margin: 1rem 17rem;
+  padding: 1rem;
+  min-height: 100px;
+  border: 2px solid #ccc;
+}
+
+footer .container{
+    display: inline;
+    padding: 15px 25px 0 0;
+}
+
+.integrante ul {
+    padding-left: 30px;
+}
+.f1 p{
+    padding: 0 0 5px 0;
+ }
+ .err{
+    text-align: center;
+    padding-top: 10px;
+ }
+ 
+.logo-img{
+    height: 50px;
+}
+
+.app{
+    text-align: center;
+ }
+
+.integrante{
+    display: grid;
+    grid-template-areas: "a b";
+}
+
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+
+
+
+

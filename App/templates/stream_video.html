@@ -1,0 +1,79 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" alt="">
+
+    <link  rel="icon"   href="{% static 'img/favicon.ico' %}" alt=""/>
+    <title>Screens</title>
+</head>
+<body>
+         
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <a href="{% url 'home' %}"><img class="logo-img" src="{% static 'img/logo.png' %}" alt=""></a>
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li> <a href="#">Team Face</a> </li>
+                </ol>
+            </nav>    
+        </div>
+    </header>
+
+    <section>
+        <h1 class="titulo" >¿Quién eres tú?</h1>
+        <div class="video">
+            
+            <img src="{% url 'videostream' stream_path='video' %}">  
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="f1">
+                <p class="app">
+                    Aplicación de reconocimiento facial con EigenFaces  © 2021 UTMACH </i>
+                </p>
+            </div>
+            <div>
+                <p class="err">
+                    10MO SEMESTRE
+                </p>
+            </div>
+        </div>
+        <div class="container int">
+            <div class="f1">
+                <p>
+                    Creditos Integrantes
+                </p>
+            </div>
+            <div class="container">
+                <div class="integrante">
+                    <div class="a">
+                        <ul>
+                            <li>Cruz Pedro</li>
+                            <li>Erreyes Juan</li>
+                            <li>Jiménez María</li>
+                        </ul>
+                    </div>
+                    <div class="b">
+                        <ul>
+                            <li>Pacheco Ximena</li>
+                            <li>Suconota Cristhian</li>
+                            <li>Tello Ángel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+</body>
+</html>
